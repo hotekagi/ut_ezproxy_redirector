@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "UT EZProxy Redirector",
+  "version": "1.0.0",
+  "description": "Redirects EZProxy links to the University of Tokyo Library System's EZProxy server.",
+  "icons": { "16": "bank_16.png", "48": "bank_48.png", "128": "bank_128.png" },
+  "background": { "service_worker": "background.js" },
+  "permissions": ["tabs"],
+  "action": {}
+}
